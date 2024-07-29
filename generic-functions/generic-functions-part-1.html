@@ -152,7 +152,7 @@ map(users, (user: User) => user.name)
 //  found   : MdocApp0.this.User => String
 //  required: java.io.Serializable => java.io.Serializable
 // map(users, (user: User) => user.name)
-//                         ^^
+//            ^^^^^^^^^^^^^^^^^^^^^^^^^
 ```
 
 ---
@@ -338,6 +338,8 @@ map(users, (user: User) => user.name)
 // error: type mismatch;
 //  found   : MdocApp5.this.User => String
 //  required: java.io.Serializable => java.io.Serializable
+// map(users, (user: User) => user.name)
+//            ^^^^^^^^^^^^^^^^^^^^^^^^^
 ```
 ]
 
